@@ -8,13 +8,13 @@ export default function Page() {
   return (
     <>
       <NavBar />
-      <SideBar />
-      <h1 className="WorkFlowMangementTxt">Workflow Management</h1>
+      <div className="Flex flex-row">
+        <SideBar />
+        <h1 className="WorkFlowMangementTxt">Workflow Management</h1>
+        <ProjectView />
 
-      <ProjectComp />
-
-      <ProjectView />
-      {/* <ProjectComp /> */}
+        <ProjectComp />
+      </div>
       <TopProjectResourc />
       <ProjectList />
     </>

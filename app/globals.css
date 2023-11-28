@@ -33,9 +33,9 @@
   .WorkFlowMangementTxt{
     @apply text-black font-sans text-xl font-semibold leading-5
   }
-  /* Workflow */
+  /* Workflow All Project Resources Start */
   .PRTxtFlex{
-   @apply w-auto h-10 flex flex-row justify-between items-center m-0 
+   @apply w-auto  h-10 flex flex-row justify-between items-center m-0 
   }
   .SearchBarFlexPR
   {
@@ -59,9 +59,11 @@
     @apply flex flex-row  justify-end items-center gap-3 
   }
   .PRGraphUpperTxt{
-    @apply text-slate-400  font-sans text-xs font-normal not-italic  flex  justify-start 
+    @apply text-slate-400   font-sans text-xs font-normal not-italic  flex  justify-start 
      items-center
   }
+  /* WorkFlow All Projects Resources end */
+
   /* Project List Styling */
   .ProjectListTopSec{
     @apply flex flex-row items-center justify-between self-stretch px-4 py-0 h-14 w-auto
