@@ -1,22 +1,23 @@
-import NavBar from './Dashborad/components/navbar';
-import SideBar from './Dashborad/components/sidebar';
-import ProjectComp from "./Dashborad/components/card";
-import ProjectView from './Dashborad/components/ProjectView';
-import TopProjectResourc from './Dashborad/components/TopProjectResource';
-import ProjectList from './Dashborad/components/ProjectList';
+import NavBar from "./Dashborad/Components/navbar";
+import SideBar from "./Dashborad/Components/sidebar";
+import ProjectComp from "./Dashborad/Components/card";
+import ProjectView from "./Dashborad/Components/ProjectView";
+import TopProjectResourc from "./Dashborad/Components/TopProjectResource";
+import ProjectList from "./Dashborad/Components/ProjectList";
+import ProjectForm from "./Pages/ProjectForm";
+import ProjectStages from "./../app/Pages/Stages";
 export default function Page() {
   return (
     <>
       <NavBar />
-      <div className="Flex flex-row">
-        <SideBar />
-        <h1 className="WorkFlowMangementTxt">Workflow Management</h1>
-        <ProjectView />
-
-        <ProjectComp />
-      </div>
-      <TopProjectResourc />
-      <ProjectList />
+      {/* <SideBar /> */}
+      {/* <h1 className="WorkFlowMangementTxt">Workflow Management</h1> */}
+      {/* <ProjectComp />/ */}
+      {/* <ProjectView had to work on it /> */}
+      {/* <TopProjectResourc /> */}
+      {/* <ProjectList /> */}
+      <ProjectForm />
+      <ProjectStages />
     </>
   );
 }
