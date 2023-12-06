@@ -255,6 +255,9 @@
    @apply text-slate-500 font-sans text-sm font-normal not-italic leading-6 pb-1 self-stretch items-center flex-1 border rounded-sm border-slate-200 bg-slate-100 shadow px-1 py-1 h-8 w-96 m-1
 }
 
+.inputSpaceFormdate{
+  @apply text-slate-500 font-sans text-sm font-normal not-italic leading-6 pb-1 self-stretch items-center flex-1 border rounded-sm border-slate-200 bg-slate-100 shadow px-1 py-1 h-8 w-[184px] m-1
+}
 .inputSpaceFormAddResouces{
    @apply text-slate-500 font-sans text-sm font-normal not-italic leading-6  self-stretch items-center flex-1 border  rounded-sm  border-slate-200 bg-slate-100 shadow px-1 py-1 h-20 w-96 m-1
 }
@@ -302,11 +305,39 @@
   @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white border border-slate-100
  }
 
-
-
  .AddStagsCol{
   @apply text-blue-500 font-sans text-sm not-italic font-normal leading-6 flex  pl-4 items-center gap-1 self-stretch p-3 
  }
+
+ .StagesAddResourcesTxt{
+  @apply w-40  text-start h-6 text-black font-sans text-lg not-italic font-semibold leading-normal
+ }
+
+.StagesRightContainerHeader{
+  @apply flex flex-row justify-start items-center gap-6
+}
+
+ .SearchSize{
+  @apply w-6 h-4 
+ }  
+
+ .SearchTxtStagesRightCont{
+  @apply  text-slate-500 font-sans text-sm not-italic font-normal leading-5 cursor-pointer
+ }
+
+  .StagesRightContainerSrchBtnFlex
+ {
+  @apply flex flex-row justify-start items-center gap-4
+ }
+ .StagesRightContainerBtnAll{
+  @apply w-5 h-4 text-blue-500 font-sans text-sm not-italic font-semibold leading-normal
+ }
+
+ .SatgesRightContainerBtnSelectAval{
+  @apply  w-14 h-4  text-slate-500 font-sans text-sm not-italic font-semibold leading-normal
+ }
+
+
 /* Projects Stages */
 
 

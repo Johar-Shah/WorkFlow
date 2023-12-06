@@ -17,7 +17,7 @@ export default function Page() {
       {/* <TopProjectResourc /> */}
       {/* <ProjectList /> */}
       <ProjectForm />
-      <ProjectStages />
+      {/* <ProjectStages /> */}
     </>
   );
 }

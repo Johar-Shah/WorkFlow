@@ -77,7 +77,11 @@ export default function ProjectForm(){
             <label className="PFDetailsList" for="Project">
               Project Duration :
             </label>
-            <input type="date" id="name" className="inputSpaceForm" />
+            <div>
+              <input type="date" id="name" className="inputSpaceFormdate" />
+              <span>-</span>
+              <input type="date" id="name" className="inputSpaceFormdate" />
+            </div>
           </div>
           <div className="ProjectFormSectioAdj">
             <label className="PFDetailsList" for="Project">
