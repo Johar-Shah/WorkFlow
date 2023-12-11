@@ -109,7 +109,7 @@
 
 /* NavBar */
 .NavigationFlex{
-  @apply w-auto h-12 flex px-2 py-4 justify-between items-center bg-black  shadow-sm
+  @apply w-full h-12 flex px-2 py-4 justify-between items-center bg-black  shadow-sm
 }
 
 .LogoSynt{
@@ -133,7 +133,7 @@
 }
 
 .ProfileTxtFlex{
-@apply flex  px-0 py-3 gap-2 items-center self-stretch w-28 h-auto
+@apply flex  px-0 py-3 gap-2 items-center self-stretch  h-auto
 }
 
 .ProfileNameTxtNav{
@@ -160,7 +160,7 @@
 }
 
 .DashBrdTitleImgFlex{
-  @apply flex flex-row justify-start items-center px-0 py-4 gap-2.5 self-stretch bg-slate-100 w-52 h-10
+  @apply flex flex-row justify-start items-center px-0 py-4 gap-2.5 self-stretch bg-slate-100 w-52  h-10
 } 
 
 .ProjectsNotherTitleImgFlex{
@@ -274,7 +274,7 @@
 
 /* Projects Stages */
 .ProjectStagesBar{
-  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-auto h-12 flex justify-between items-center  px-4 py-6 flex-shrink-0 
+  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-auto h-12 flex justify-between items-center  px-4 py-6 flex-shrink-0 mb-2
 }
 
 .LeftStagesSection{
@@ -310,7 +310,7 @@
  }
 
  .StagesAddResourcesTxt{
-  @apply w-40  text-start h-6 text-black font-sans text-lg not-italic font-semibold leading-normal
+  @apply w-40 h-6 text-black font-sans text-lg not-italic font-semibold leading-normal items-start justify-start
  }
 
 .StagesRightContainerHeader{
@@ -325,6 +325,9 @@
   @apply  text-slate-500 font-sans text-sm not-italic font-normal leading-5 cursor-pointer
  }
 
+ .StagesRightContainerAddREsouce{
+  @apply w-[515px] h-[626px] rounded-md bg-white  flex flex-col justify-start items-start gap-6  p-3
+ }
   .StagesRightContainerSrchBtnFlex
  {
   @apply flex flex-row justify-start items-center gap-4
@@ -334,11 +337,92 @@
  }
 
  .SatgesRightContainerBtnSelectAval{
-  @apply  w-14 h-4  text-slate-500 font-sans text-sm not-italic font-semibold leading-normal
+  @apply  w-14 h-4  text-slate-500 font-sans text-sm not-italic font-semibold leading-normal 
  }
 
+ .StagesRightContainerProfileBox{
+  @apply grid  grid-flow-row gap-2 w-[473.667px] h-auto flex-shrink-0 rounded-md border border-black p-4  
+ }
+ .ProfileName{
+  @apply  text-black font-sans text-base not-italic font-bold leading-normal
+ }
+ .ProfileProffesion{
+  @apply text-slate-300 font-sans text-sm not-italic font-normal leading-normal
+ }
 
+ .ProfileAvailable{
+  @apply text-blue-500 font-sans text-sm not-italic font-normal leading-normal
+ }
 /* Projects Stages */
+/* Use Cases */
+.ProcurWrongFlex{
+  @apply flex flex-row items-center justify-between  p-5 
+}
+
+.ProcurWrkFlwTxt{
+  @apply flex w-80   h-8 flex-col justify-center flex-shrink-0 text-black font-sans text-3xl not-italic font-semibold leading-7 
+}
+
+.TopBarMainSectionFlex{
+  @apply flex flex-row  justify-between items-center bg-white w-auto h-14 flex-shrink-0  px-3 mb-5
+}
+
+.UseCasesTxt{
+  @apply  text-black font-sans text-lg not-italic font-semibold  leading-7 w-[82px] h-10 flex  items-center gap-4 bg-white 
+}
+
+.BtnSearchFlexLeft{
+  @apply flex flex-row justify-start items-center gap-2
+}
+
+
+
+.SearchTxtSearchBarFlex{
+  @apply flex flex-row justify-start items-center 
+}
+
+.SearchTxt{
+  @apply text-black font-sans text-sm not-italic font-normal leading-7 w-52 h-8  flex px-1 py-3 items-start gap-[10px]  border-black  
+}
+
+.UseCaseBtnClr{
+  @apply flex px-0 py-4 justify-center items-center gap-2 self-start border rounded-sm bg-blue-500 w-11 h-8 
+}
+
+.OrientViewBtn{
+  @apply flex px-1 py-4 items-center justify-center gap-2 rounded-sm border bg-blue-500 w-24 h-8 text-white text-center font-sans text-sm not-italic font-normal leading-7
+}
+
+.ResoucesViewBtn{
+  @apply flex px-1 py-4 items-center justify-center gap-2 rounded-sm border bg-blue-500 w-32 h-8 text-white text-center font-sans text-sm not-italic font-normal leading-7
+}
+/* Compoemet inside the UseCase */
+.RequirementText{
+  @apply text-blue-800 font-sans text-sm not-italic font-medium leading-6
+}
+
+.UseCaseTxt{
+  @apply text-black font-sans text-base not-italic font-semibold leading-7 w-20  h-7
+}
+
+.AssignedColTxtUsecaseComp{
+  @apply text-black font-sans text-sm not-italic font-semibold leading-7 w-28 h-6 text-start
+}
+
+.NameProfileColUsecaseComp{
+  @apply text-black font-sans text-sm not-italic font-semibold leading-7 w-24 h-6 text-start
+}
+
+.NameProfileColUsecaseCompDate{
+  @apply  text-orange-500 font-sans text-sm not-italic font-semibold leading-7 w-24 h-6 text-start
+}
+
+.NameProfileColUsecaseCompDateGreenClrDate{
+@apply text-green-500 font-sans text-sm not-italic font-semibold leading-7 w-24 h-6 text-start
+}
+/* Compoemet inside the UseCase */
+
+/* Use Cases */
 
 
 

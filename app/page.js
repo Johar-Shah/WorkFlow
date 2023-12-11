@@ -6,17 +6,21 @@ import TopProjectResourc from "./Dashborad/Components/TopProjectResource";
 import ProjectList from "./Dashborad/Components/ProjectList";
 import ProjectForm from "./Pages/ProjectForm";
 import ProjectStages from "./../app/Pages/Stages";
+import Procurement from './Pages/UseCasesPro';
 export default function Page() {
   return (
     <>
       <NavBar />
-      {/* <SideBar /> */}
+      <div className="flex flex-row items-start justify-start ">
+        {/* <SideBar /> */}
+        <Procurement />
+      </div>
       {/* <h1 className="WorkFlowMangementTxt">Workflow Management</h1> */}
       {/* <ProjectComp />/ */}
       {/* <ProjectView had to work on it /> */}
       {/* <TopProjectResourc /> */}
       {/* <ProjectList /> */}
-      <ProjectForm />
+      {/* <ProjectForm /> */}
       {/* <ProjectStages /> */}
     </>
   );

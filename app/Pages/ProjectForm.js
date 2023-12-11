@@ -1,4 +1,18 @@
 export default function ProjectForm(){
+  async function onSubmit(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    // Handle response if necessary
+    const data = await response.json();
+    // ...
+  }
+ 
   return (
     <>
       {/* This section shows Header of Adding New Projects   */}
@@ -95,7 +109,7 @@ export default function ProjectForm(){
             />
           </div>
         </form>
-        <button className="ProjectFormBtnNxt">Next</button>
+        <button onSubmit={onSubmit} className="ProjectFormBtnNxt">Next</button>
       </section>
     </>
   );

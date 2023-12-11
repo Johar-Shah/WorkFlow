@@ -1,7 +1,7 @@
 export default function SideBar(){
   return (
     <>
-      <div className="SideBarProperties">
+      <div className="SideBarProperties ">
         <div>
           <section className="DashBrdTitleImgFlex">
             {" "}
