@@ -51,13 +51,13 @@ export default function Procurement() {
             </div>
           </div>
           {/*  Mock development   */}
-          <div className=" flex flex-col items-start justify-center gap-10">
+          <div className=" flex flex-col items-start justify-center gap-10 ">
             <div className=" bg-blue-50 flex flex-col px-3 py-3 w-72 items-center justify-center gap-3">
               <div className="flex flex-row justify-between w-64 item-start pb-3   ">
                 <p className="RequirementText">Mock Develpoment</p>
                 <img src="Images/Plus.svg" className="w-6" />
               </div>
-              <div className="bg-white w-60 rounded-lg p-3 leading-4 gap-3">
+              <div className="bg-white w-60 rounded-lg p-3 leading-4 gap-3 ">
                 <p className="UseCaseTxt">UseCase-1</p>
                 <div className=" flex flex-row justify-start items-center gap-2">
                   <div>
@@ -307,6 +307,21 @@ export default function Procurement() {
             </div>
             <div className="bg-white w-60 rounded-lg p-3 leading-4 gap-3">
               <p className="UseCaseTxt">UseCase-4</p>
+              <div className=" flex flex-row justify-start items-center gap-2">
+                <div>
+                  <p className="AssignedColTxtUsecaseComp">Assigned to</p>
+                  <p className="AssignedColTxtUsecaseComp">No. of Resources:</p>
+                  <p className="AssignedColTxtUsecaseComp">Dates:</p>
+                </div>
+                <div>
+                  <p className="NameProfileColUsecaseComp">Angela Monus</p>
+                  <p className="NameProfileColUsecaseComp">04</p>
+                  <p className="NameProfileColUsecaseCompDate">12/09/2023</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white w-60 rounded-lg p-3 leading-4 gap-3">
+              <p className="UseCaseTxt">UseCase-5</p>
               <div className=" flex flex-row justify-start items-center gap-2">
                 <div>
                   <p className="AssignedColTxtUsecaseComp">Assigned to</p>

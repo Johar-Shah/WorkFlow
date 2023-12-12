@@ -31,7 +31,7 @@
 @layer components{
   /* Workflow */
   .WorkFlowMangementTxt{
-    @apply text-black font-sans text-xl font-semibold leading-5
+    @apply text-black font-sans text-3xl font-semibold leading-5 m-4
   }
   /* Workflow All Project Resources Start */
   .PRTxtFlex{
@@ -274,35 +274,35 @@
 
 /* Projects Stages */
 .ProjectStagesBar{
-  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-auto h-12 flex justify-between items-center  px-4 py-6 flex-shrink-0 mb-2
+  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-[88vw] flex justify-between items-center  px-4 py-4 flex-shrink-0 mb-2 
 }
 
 .LeftStagesSection{
-  @apply h-[626] w-[677px] flex flex-col items-center justify-center flex-shrink-0 self-stretch rounded-sm bg-white  gap-1 border border-slate-200 
+  @apply h-[626] w-[677px] flex flex-col items-start justify-center flex-shrink-0 self-stretch rounded-sm bg-white  gap-1   m-8 
 }
 
 .LeftSectionStagesStage1{
-  @apply flex flex-col justify-center items-center w-[612px] h-[133px] gap-2 border border-slate-100 border-t-2 
+  @apply flex flex-col justify-center items-center w-[612px] h-[133px] gap-2   
 }
 
 .AddSatge1Txt{
-  @apply text-blue-500 font-sans text-sm  not-italic font-bold leading-6 w-auto h-6 bg-white flex px-4 py-6 flex-col items-start self-stretch shadow-sm  justify-center border-b-4  border-slate-100 
+  @apply text-blue-500 font-sans text-sm  not-italic font-bold leading-6 w-auto h-6 bg-white flex px-4 py-6 flex-col items-start self-stretch shadow-sm  justify-center border-b-4  
 }
 
 .Satge1Txt{
-  @apply text-blue-500 font-sans text-sm not-italic font-normal leading-7 px-2 w-[602px] h-[22] border-slate-500 rounded-sm   bg-white 
+  @apply text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white 
 }
 
 .RequirementStages{
-  @apply text-pink-500  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-[9px] py-3 items-center gap-1  rounded-sm bg-white border border-slate-50
+  @apply text-blue-500  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-[9px] py-3 items-center gap-1  rounded-sm bg-white  
 }
 
  .AddStages{
-  @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm  border border-slate-100 bg-white 
+  @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white 
 }
 
  .AddCheckListStages{
-  @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white border border-slate-100
+  @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white  border-slate-100
  }
 
  .AddStagsCol{
@@ -341,7 +341,7 @@
  }
 
  .StagesRightContainerProfileBox{
-  @apply grid  grid-flow-row gap-2 w-[473.667px] h-auto flex-shrink-0 rounded-md border border-black p-4  
+  @apply grid  grid-flow-row gap-2 w-[473.667px] h-auto flex-shrink-0 rounded-md  border-black p-4  
  }
  .ProfileName{
   @apply  text-black font-sans text-base not-italic font-bold leading-normal
@@ -394,15 +394,15 @@
 }
 
 .ResoucesViewBtn{
-  @apply flex px-1 py-4 items-center justify-center gap-2 rounded-sm border bg-blue-500 w-32 h-8 text-white text-center font-sans text-sm not-italic font-normal leading-7
+  @apply flex px-1 py-4 items-center justify-center gap-2 rounded-sm border bg-blue-600 w-32 h-8 text-white text-center font-sans text-sm not-italic font-normal leading-7
 }
 /* Compoemet inside the UseCase */
 .RequirementText{
-  @apply text-blue-800 font-sans text-sm not-italic font-medium leading-6
+  @apply text-blue-800 font-sans text-base not-italic font-semibold leading-6
 }
 
 .UseCaseTxt{
-  @apply text-black font-sans text-base not-italic font-semibold leading-7 w-20  h-7
+  @apply text-black font-sans text-sm not-italic font-semibold leading-7 w-20  h-7
 }
 
 .AssignedColTxtUsecaseComp{
