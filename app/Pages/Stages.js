@@ -8,52 +8,68 @@ export default function ProjectStages() {
     <>
       <div className="flex flex-row ">
         <section className="">
-          <div className="ProjectStagesBar ">Stages</div>
+          <div className="text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-[87vw] flex justify-between items-center  px-4 py-4 flex-shrink-0 m-2  ">
+            Stages
+          </div>
           {/* <div className="flex flex-row justify-evenly"> */}
           {/* left Conatiner Box  Stages */}
-          <section className="LeftStagesSection">
-            <div className="AddSatge1Txt">Add Stages</div>
+          <section className="h-auto w-[99%] flex flex-col items-start justify-center flex-shrink-0 self-stretch rounded-sm bg-white  gap-1   m-2 ">
+            <div className="text-blue-500 font-sans text-sm  not-italic font-bold leading-6 w-auto h-6 bg-white flex px-5 py-6 flex-col items-start self-stretch shadow-sm  justify-center border-b-4">
+              Add Stages
+            </div>
 
             {/* Stages start */}
             <div className="px-6 py-4 ">
               <div className="border border-blue-100 rounded-lg mb-4">
-                <div className="LeftSectionStagesStage1">
-                  <div className="Satge1Txt">Stage 1</div>
+                <div className="flex flex-col justify-center items-center w-[612px] h-[133px] gap-2">
+                  <div className=" text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white ">
+                    Stage 1
+                  </div>
                   <div>
-                    <div className="RequirementStages">Requirement</div>
-                    <div className="AddStages">
+                    <div className="text-blue-400  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-3 py-3 items-center gap-1  rounded-sm bg-white">
+                      Requirement
+                    </div>
+                    <div className="text-black font-sans text-sm font-medium not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white">
                       <SubStages />
                     </div>
-                    <div className="AddCheckListStages">
+                    <div className="text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white  border-slate-100">
                       <AddCheckList />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="border border-blue-100 rounded-lg mb-4">
-                <div className="LeftSectionStagesStage1">
-                  <div className="Satge1Txt">Stage 2</div>
+                <div className="flex flex-col justify-center items-center w-[612px] h-[133px] gap-2">
+                  <div className="text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white">
+                    Stage 2
+                  </div>
                   <div>
-                    <div className="RequirementStages">Mock Development</div>
-                    <div className="AddStages">
+                    <div className="text-blue-400  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-3 py-3 items-center gap-1  rounded-sm bg-white">
+                      Mock Development
+                    </div>
+                    <div className="text-black font-sans text-sm font-medium not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white">
                       <SubStages />
                     </div>
-                    <div className="AddCheckListStages">
+                    <div className="text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white  border-slate-100">
                       <AddCheckList />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="border border-blue-100 rounded-lg mb-4">
-                <div className="LeftSectionStagesStage1">
-                  <div className="Satge1Txt">Stage 3</div>
+                <div className="flex flex-col justify-center items-center w-[612px] h-[133px] gap-2  ">
+                  <div className="text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white ">
+                    Stage 3
+                  </div>
                   <div>
-                    <div className="RequirementStages">Actual Development</div>
-                    <div className="AddStages">
+                    <div className="text-blue-400  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-3 py-3 items-center gap-1  rounded-sm bg-white ">
+                      Actual Development
+                    </div>
+                    <div className="text-black font-sans text-sm font-medium not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white ">
                       {" "}
                       <SubStages />
                     </div>
-                    <div className="AddCheckListStages">
+                    <div className="text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white  border-slate-100">
                       {" "}
                       <AddCheckList />
                     </div>
@@ -61,14 +77,14 @@ export default function ProjectStages() {
                 </div>
               </div>
               <div className="border border-blue-100 rounded-lg mb-4 ">
-                <div className="LeftSectionStagesStage1">
-                  <div className="Satge1Txt">
+                <div className="flex flex-col justify-center items-center w-[612px] h-[133px] gap-2">
+                  <div className="text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white">
                     <AddStage />
                   </div>
                   <div>
-                    <div className="RequirementStages"></div>
-                    <div className="AddStages"></div>
-                    <div className="AddCheckListStages"></div>
+                    <div className="text-blue-700 font-sans text-sm not-italic font-medium leading-7 px-2 w-[602px] h-[22] rounded-sm   bg-white"></div>
+                    <div className="text-black font-sans text-sm font-medium not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white "></div>
+                    <div className="text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-10 flex px-10 py-3 items-center gap-1  rounded-sm  bg-white  border-slate-100"></div>
                   </div>
                 </div>
               </div>

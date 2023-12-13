@@ -273,7 +273,7 @@
 
 
 /* Projects Stages */
-.ProjectStagesBar{
+/* .ProjectStagesBar{
   @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-[87vw] flex justify-between items-center  px-4 py-4 flex-shrink-0 m-2 
 }
 
@@ -351,8 +351,8 @@
  }
 
  .ProfileAvailable{
-  @apply text-blue-500 font-sans text-sm not-italic font-normal leading-normal
- }
+  @apply text-blue-500 font-sans text-sm not-italic font-normal leading-normal */
+ /* } */
 /* Projects Stages */
 /* Use Cases */
 .ProcurWrongFlex{
