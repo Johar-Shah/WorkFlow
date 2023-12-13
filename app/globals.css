@@ -274,11 +274,11 @@
 
 /* Projects Stages */
 .ProjectStagesBar{
-  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-[88vw] flex justify-between items-center  px-4 py-4 flex-shrink-0 mb-2 
+  @apply text-black font-sans text-base  not-italic font-semibold leading-7 bg-white w-[87vw] flex justify-between items-center  px-4 py-4 flex-shrink-0 m-2 
 }
 
 .LeftStagesSection{
-  @apply h-[626] w-[677px] flex flex-col items-start justify-center flex-shrink-0 self-stretch rounded-sm bg-white  gap-1   m-8 
+  @apply h-auto w-[99%] flex flex-col items-start justify-center flex-shrink-0 self-stretch rounded-sm bg-white  gap-1   m-2 
 }
 
 .LeftSectionStagesStage1{
@@ -286,7 +286,7 @@
 }
 
 .AddSatge1Txt{
-  @apply text-blue-500 font-sans text-sm  not-italic font-bold leading-6 w-auto h-6 bg-white flex px-4 py-6 flex-col items-start self-stretch shadow-sm  justify-center border-b-4  
+  @apply text-blue-500 font-sans text-sm  not-italic font-bold leading-6 w-auto h-6 bg-white flex px-5 py-6 flex-col items-start self-stretch shadow-sm  justify-center border-b-4  
 }
 
 .Satge1Txt{
@@ -294,11 +294,11 @@
 }
 
 .RequirementStages{
-  @apply text-blue-500  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-[9px] py-3 items-center gap-1  rounded-sm bg-white  
+  @apply text-blue-400  font-sans text-sm font-normal leading-6 flex-1 w-[612px] h-6 flex px-3 py-3 items-center gap-1  rounded-sm bg-white  
 }
 
  .AddStages{
-  @apply text-black font-sans text-sm font-normal not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white 
+  @apply text-black font-sans text-sm font-medium not-italic leading-6 w-auto h-8 flex px-6 py-3 items-center gap-1  rounded-sm    bg-white 
 }
 
  .AddCheckListStages{
